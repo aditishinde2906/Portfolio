@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrialTrack Case Study — Aditi Shinde</title>
+<meta name="description" content="TrialTrack case study — an end-to-end simulation of a Phase II eCOA/ePRO study deployment: study start-up documentation, a risk register, Smartsheet milestone tracking with budget-burn alerts, and a reusable delivery playbook that cut simulated timeline variance by 41%.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a class="brand" href="index.html">Aditi Shinde<span>.</span></a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="active" href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section>
+  <div class="container prose">
+    <a class="back" href="projects.html">← Back to Projects</a>
+    <div class="section-head">
+      <h2>TrialTrack — eCOA/ePRO Study Delivery Simulation</h2>
+      <p>Self-directed clinical project delivery simulation · Phase II Patient Experience study</p>
+    </div>
+    <p class="meta-line"><strong>Role:</strong> Project Manager (simulated) &nbsp;·&nbsp; <strong>Methodology:</strong> Hybrid — predictive governance with Agile delivery tracking &nbsp;·&nbsp; <strong>Tools:</strong> MS Project, Smartsheet, Jira, Confluence, Excel</p>
+
+    <h3>The Challenge</h3>
+    <p>eCOA/ePRO (electronic Clinical Outcome Assessment / electronic Patient-Reported Outcome) studies are governance-heavy and deadline-driven: sponsors expect tight start-up timelines, auditable documentation, and early warning when budget or schedule drifts. I wanted to pressure-test my own delivery approach against that environment, so I built <strong>TrialTrack</strong> — a full simulation of deploying a Phase II Patient Experience study from start-up through close-out. The goal was to design and exercise a repeatable delivery process end-to-end, then measure how much disciplined planning actually reduces timeline variance.</p>
+
+    <h3>My Approach</h3>
+    <ul>
+      <li><strong>Study start-up — authored the documentation set.</strong> Built the start-up artifacts a study needs before it can run: project charter, scope and deliverables definition, a communication plan with stakeholder cadences, and a milestone-driven delivery schedule in MS Project covering build, UAT, deployment, and close-out.</li>
+      <li><strong>Risk — built a risk register.</strong> Identified the risks that derail eCOA/ePRO deployments — vendor build delays, UAT slippage, device/connectivity issues, and scope creep on assessment configuration — and scored each on probability × impact with named owners, response strategies, and triggers, so mitigation effort went to the critical few.</li>
+      <li><strong>Tracking — structured Smartsheet with budget-burn alerts.</strong> Stood up a Smartsheet workspace with milestone tracking, dependency rollups, and conditional-format alerts that fired when budget burn or schedule slipped past thresholds — turning status from a manual after-the-fact report into a live signal.</li>
+      <li><strong>Delivery execution — Jira and Confluence.</strong> Tracked build and UAT work in Jira, and used Confluence as the single source of truth for plans, decisions, and meeting records — keeping a clean audit trail throughout.</li>
+      <li><strong>Ceremonies — facilitated mock kick-off and lessons-learned.</strong> Ran a simulated kick-off to align scope, roles, and the communication plan, and a structured lessons-learned session at close-out to capture what worked and what to change.</li>
+      <li><strong>Repeatability — produced a delivery playbook.</strong> Rolled the artifacts, templates, and cadences into a reusable delivery playbook so the next study could start from a proven baseline rather than a blank page.</li>
+    </ul>
+
+    <h3>Challenges &amp; How I Solved Them</h3>
+    <ul>
+      <li><strong>Catching drift early instead of late:</strong> the usual failure mode is finding out you're over budget or behind only at the next status meeting. Wiring budget-burn and schedule-threshold alerts directly into the Smartsheet tracker moved that signal forward, so a slip surfaced as it happened rather than after the fact.</li>
+      <li><strong>Keeping governance and speed in balance:</strong> clinical delivery needs auditability, but heavy process slows teams down. I paired predictive governance (charter, risk register, milestone plan) with Agile execution tracking in Jira — enough rigor to be audit-ready, enough cadence to keep momentum.</li>
+      <li><strong>Proving the process actually helped:</strong> rather than asserting the playbook worked, I ran the deployment against a baseline and measured timeline variance, so the improvement was a number I could point to.</li>
+    </ul>
+
+    <h3>Results &amp; Deliverables</h3>
+    <ul>
+      <li><strong>Cut simulated timeline variance by 41%</strong> versus the unstructured baseline, driven by earlier risk visibility and the budget-burn alerts.</li>
+      <li>Delivered a complete study start-up documentation set: charter, scope, communication plan, and an MS Project milestone schedule.</li>
+      <li>Built a probability × impact risk register with owners, response strategies, and triggers.</li>
+      <li>Stood up a Smartsheet tracking workspace with milestone rollups and budget-burn / schedule alerts.</li>
+      <li>Facilitated mock kick-off and lessons-learned sessions, captured in Confluence.</li>
+      <li>Produced a <strong>reusable delivery playbook</strong> that turns a new study from a blank page into a proven baseline.</li>
+    </ul>
+
+    <h3>What I Took Away</h3>
+    <p>TrialTrack reinforced that the value of project management shows up earliest in the <em>signals you design in</em>, not the reports you write afterward. The single highest-leverage move was instrumenting the tracker so budget and schedule drift announced themselves — everything downstream got easier. The playbook is the part I carry forward: a delivery approach that's audit-ready for governance-heavy environments yet fast enough to keep a cross-functional team moving.</p>
+
+    <p style="margin-top:24px"><a class="btn btn-ghost" href="projects.html">← Back to Projects</a></p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>© 2026 Aditi Shinde. Delivering clarity in complex environments.</p>
+  </div>
+</footer>
+
+</body>
+</html>

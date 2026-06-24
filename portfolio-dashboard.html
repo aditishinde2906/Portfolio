@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Portfolio Reporting Dashboard — Aditi Shinde</title>
+<meta name="description" content="Project Portfolio Reporting Dashboard case study — consolidated reporting across 6 concurrent workstreams into automated Power BI and Tableau dashboards linked to live Smartsheet trackers, cutting reporting cycle time by 35% and freeing 4+ hours per week.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a class="brand" href="index.html">Aditi Shinde<span>.</span></a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="active" href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section>
+  <div class="container prose">
+    <a class="back" href="projects.html">← Back to Projects</a>
+    <div class="section-head">
+      <h2>Project Portfolio Reporting Dashboard</h2>
+      <p>Portfolio-level reporting automation across 6 concurrent workstreams</p>
+    </div>
+    <p class="meta-line"><strong>Role:</strong> Project Manager / Reporting Lead &nbsp;·&nbsp; <strong>Scope:</strong> 6 concurrent workstreams &nbsp;·&nbsp; <strong>Tools:</strong> Power BI, Tableau, Smartsheet, Excel</p>
+
+    <h3>The Challenge</h3>
+    <p>Running six concurrent workstreams meant six separate trackers, six status formats, and a recurring scramble to hand-assemble a portfolio view before every leadership update. The compilation was slow, error-prone, and always slightly out of date by the time it was read — which meant delivery risk and slipping milestones surfaced later than they should. Leadership needed a single, trustworthy, real-time picture of the whole portfolio, and the team needed those hours back.</p>
+
+    <h3>My Approach</h3>
+    <ul>
+      <li><strong>Standardized the source data.</strong> Aligned the six workstream trackers in Smartsheet on a common schema — consistent status fields, milestone dates, RAG indicators, and budget figures — so the data could roll up cleanly instead of being reconciled by hand each cycle.</li>
+      <li><strong>Connected live, not copied.</strong> Linked Power BI and Tableau directly to the live Smartsheet trackers, so the dashboards reflected the current state of work rather than a snapshot pasted into a deck. No more manual exports.</li>
+      <li><strong>Designed for the leadership question.</strong> Built the views around what leadership actually needed to decide on: portfolio-wide milestone status, delivery-risk heat across workstreams, and budget/schedule health — surfacing the exceptions that needed attention rather than burying them in detail.</li>
+      <li><strong>Automated the refresh.</strong> Set up scheduled refreshes so the portfolio view stayed current on its own, turning a manual weekly compilation into a self-updating, always-on report.</li>
+      <li><strong>Two tools, by audience.</strong> Used Power BI and Tableau to serve different consumers and reporting habits, keeping a consistent data story across both.</li>
+    </ul>
+
+    <h3>Challenges &amp; How I Solved Them</h3>
+    <ul>
+      <li><strong>Inconsistent source trackers:</strong> the six workstreams had drifted into different formats. Standardizing the Smartsheet schema first was the unglamorous step that made everything downstream possible — automation can't fix data that doesn't line up.</li>
+      <li><strong>Stale, manual reporting:</strong> replacing copy-paste compilation with a live connection removed both the lag and the transcription errors, so the number leadership saw was the number in the tracker.</li>
+      <li><strong>Signal over noise:</strong> a portfolio dashboard can easily become an unreadable wall of metrics. I designed the views around exceptions and risk first, so the things that needed a decision stood out at a glance.</li>
+    </ul>
+
+    <h3>Results &amp; Deliverables</h3>
+    <ul>
+      <li><strong>Reduced reporting cycle time by 35%</strong> by replacing manual compilation with live-linked, auto-refreshing dashboards.</li>
+      <li><strong>Freed 4+ hours per week</strong> previously spent assembling portfolio status by hand.</li>
+      <li>Gave leadership real-time visibility into delivery risk and milestone status across all 6 workstreams.</li>
+      <li>Delivered automated Power BI and Tableau dashboards connected to live Smartsheet trackers, plus a standardized tracker schema that keeps the data clean at the source.</li>
+    </ul>
+
+    <h3>What I Took Away</h3>
+    <p>The biggest lesson was that reporting problems are usually data-structure problems in disguise. Once the six trackers shared a schema, the dashboards almost built themselves — and the real payoff wasn't the visuals, it was giving leadership a current, trustworthy view and giving the team its hours back. I now treat "make the source consistent" as the first step in any reporting work, not an afterthought.</p>
+
+    <p style="margin-top:24px"><a class="btn btn-ghost" href="projects.html">← Back to Projects</a></p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>© 2026 Aditi Shinde. Delivering clarity in complex environments.</p>
+  </div>
+</footer>
+
+</body>
+</html>
