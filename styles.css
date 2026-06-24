@@ -55,6 +55,10 @@ section{padding:72px 0}
 .hero .role{color:#cdd6ea;font-weight:500;letter-spacing:.5px;font-size:1.05rem;margin-bottom:22px;text-transform:uppercase}
 .hero p.lead{color:#e7ecf7;font-size:1.18rem;max-width:680px;margin-bottom:30px}
 .hero .actions{display:flex;gap:14px;flex-wrap:wrap}
+.hero-inner{display:flex;align-items:center;gap:48px;justify-content:space-between}
+.hero-text{flex:1;min-width:0}
+.hero-photo{width:240px;height:240px;border-radius:50%;object-fit:cover;
+  border:5px solid rgba(255,255,255,.25);box-shadow:0 12px 34px rgba(0,0,0,.35);flex-shrink:0}
 
 /* ===== Stats ===== */
 .stats{background:var(--light)}
@@ -118,6 +122,9 @@ section{padding:72px 0}
   .nav-toggle{display:block}
   .stats-grid,.grid-2,.cred-grid,.contact-grid{grid-template-columns:1fr}
   .hero h1{font-size:2.3rem}
+  .hero-inner{flex-direction:column-reverse;text-align:center;gap:28px}
+  .hero .actions{justify-content:center}
+  .hero-photo{width:160px;height:160px}
   .hero{padding:72px 0}
   section{padding:56px 0}
 }
